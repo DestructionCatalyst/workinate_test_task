@@ -1,6 +1,6 @@
-from search.yandex.parse_xml import parse_xml
+from search.yandex.yandex_response_formatter import YandexResponceFormatter
 from search.yandex.yandex_exceptions import YandexException
-from django.test import TestCase
+from unittest import TestCase
 import os
 
 
@@ -9,7 +9,7 @@ class YandexTestCase(TestCase):
         pass
 
     def test_xml_parsing(self):
-        file_path = os.path.join('search', 'yandex', 'test_responce.xml')
+        file_path = os.path.join('search', 'yandex', 'test_response.xml')
         with open(file_path) as xml_file:
             xml_string = xml_file.read()
         expected = [{'num': 1, 'url': 'https://yandex.ru/'},
@@ -22,13 +22,14 @@ class YandexTestCase(TestCase):
                     {'num': 8, 'url': 'https://yandex.ru/games/'},
                     {'num': 9, 'url': 'https://yandex.ru/video/?p=1'},
                     {'num': 10, 'url': 'https://yandex.ru/all'}]
-        self.assertEqual(expected, parse_xml(xml_string))
+        self.assertEqual(expected,
+            YandexResponceFormatter(xml_string).get_formatted_response())
 
     def test_xml_error(self):
-        file_path = os.path.join('search', 'yandex', 'test_error_responce.xml')
+        file_path = os.path.join('search', 'yandex', 'test_error_response.xml')
         with open(file_path) as xml_file:
             xml_string = xml_file.read()
         with self.assertRaises(YandexException):
-            parse_xml(xml_string)
+            YandexResponceFormatter(xml_string).get_formatted_response()
 
 

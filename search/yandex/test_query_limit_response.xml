@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yandexsearch version="1.0">
+    <response date="20211113T150433">
+        <error code="32">
+            Лимит запросов исчерпан у пользователя komza-vlad
+        </error>
+        <reqid>
+            1636815873286015-4923404537303471064-man1-4525-man-l7-balancer-8080-BAL-8363
+        </reqid>
+    </response>
+</yandexsearch>

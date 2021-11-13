@@ -1,0 +1,846 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - lectures",
+        "totalResults": "865000000",
+        "searchTerms": "lectures",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "768a20a91d96d42f3"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - lectures",
+        "totalResults": "865000000",
+        "searchTerms": "lectures",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "768a20a91d96d42f3"
+      }
+    ]
+  },
+  "context": {
+    "title": "workinate_test_task"
+  },
+  "searchInformation": {
+    "searchTime": 0.527528,
+    "formattedSearchTime": "0.53",
+    "totalResults": "865000000",
+    "formattedTotalResults": "865,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Lecture - Wikipedia",
+      "htmlTitle": "\u003cb\u003eLecture\u003c/b\u003e - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Lecture",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "A lecture is an oral presentation intended to present information or teach people about a particular subject, for example by a university or college teacher ...",
+      "htmlSnippet": "A \u003cb\u003electure\u003c/b\u003e is an oral presentation intended to present information or teach people about a particular subject, for example by a university or college teacher&nbsp;...",
+      "cacheId": "d9Pjta02fmgJ",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Lecture",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/\u003cb\u003eLecture\u003c/b\u003e",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQe4f_hxpPEpazhmKC0AI9JfqNAPqyXWG8PWHMeUdI-RjKhOuZvrdRZZXo",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/ADFA_Lecture_Theatres.jpg/1200px-ADFA_Lecture_Theatres.jpg",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:title": "Lecture - Wikipedia",
+            "og:image:height": "799",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/ADFA_Lecture_Theatres.jpg/1200px-ADFA_Lecture_Theatres.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AK LECTURES - YouTube",
+      "htmlTitle": "AK \u003cb\u003eLECTURES\u003c/b\u003e - YouTube",
+      "link": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+      "displayLink": "www.youtube.com",
+      "snippet": "Each lecture contains a description along with a customized comment section that you can use to ask questions regarding the topic. Posting questions on the site ...",
+      "htmlSnippet": "Each \u003cb\u003electure\u003c/b\u003e contains a description along with a customized comment section that you can use to ask questions regarding the topic. Posting questions on the site&nbsp;...",
+      "formattedUrl": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+      "htmlFormattedUrl": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+      "pagemap": {
+        "hcard": [
+          {
+            "fn": "AK LECTURES",
+            "url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA"
+          }
+        ],
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjT2s_gh_vyPSvKaDCUw2V700AYMZnYReGAaQwaKxOR5rr2BycYZGkbq4",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "imageobject": [
+          {
+            "width": "900",
+            "url": "https://yt3.ggpht.com/ytc/AKedOLQ9u_Fw7yNCkKYIaqzBUiX_GsbLJuZks8_5mB_ufQ=s900-c-k-c0x00ffffff-no-rj",
+            "height": "900"
+          }
+        ],
+        "person": [
+          {
+            "name": "AK LECTURES",
+            "url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://yt3.ggpht.com/ytc/AKedOLQ9u_Fw7yNCkKYIaqzBUiX_GsbLJuZks8_5mB_ufQ=s900-c-k-c0x00ffffff-no-rj",
+            "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "twitter:app:id:googleplay": "com.google.android.youtube",
+            "theme-color": "rgba(255,255,255,0.98)",
+            "og:image:width": "900",
+            "twitter:card": "summary",
+            "og:site_name": "YouTube",
+            "twitter:url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "al:android:package": "com.google.android.youtube",
+            "twitter:app:name:googleplay": "YouTube",
+            "al:ios:url": "vnd.youtube://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "twitter:app:id:iphone": "544007664",
+            "og:description": "Donate here: http://www.aklectures.com/donate.php\nFacebook link: https://www.facebook.com/aklectures\nWebsite link: http://www.aklectures.com",
+            "al:ios:app_store_id": "544007664",
+            "twitter:image": "https://yt3.ggpht.com/ytc/AKedOLQ9u_Fw7yNCkKYIaqzBUiX_GsbLJuZks8_5mB_ufQ=s900-c-k-c0x00ffffff-no-rj",
+            "twitter:site": "@youtube",
+            "og:type": "profile",
+            "fb:profile_id": "aklectures",
+            "twitter:title": "AK LECTURES",
+            "al:ios:app_name": "YouTube",
+            "og:title": "AK LECTURES",
+            "og:image:height": "900",
+            "twitter:app:id:ipad": "544007664",
+            "al:web:url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA?feature=applinks",
+            "og:video:tag": "biology",
+            "al:android:url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA?feature=applinks",
+            "fb:app_id": "87741124305",
+            "twitter:app:url:googleplay": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "twitter:app:name:ipad": "YouTube",
+            "twitter:description": "Donate here: http://www.aklectures.com/donate.php\nFacebook link: https://www.facebook.com/aklectures\nWebsite link: http://www.aklectures.com",
+            "og:url": "https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA",
+            "al:android:app_name": "YouTube",
+            "twitter:app:name:iphone": "YouTube"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://yt3.ggpht.com/ytc/AKedOLQ9u_Fw7yNCkKYIaqzBUiX_GsbLJuZks8_5mB_ufQ=s900-c-k-c0x00ffffff-no-rj"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Lectures - Eberly Center - Carnegie Mellon University",
+      "htmlTitle": "\u003cb\u003eLectures\u003c/b\u003e - Eberly Center - Carnegie Mellon University",
+      "link": "https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/lectures.html",
+      "displayLink": "www.cmu.edu",
+      "snippet": "Of course, lectures work best when they are in service of the appropriate learning objectives, such as: To transmit cutting-edge information which supplements ...",
+      "htmlSnippet": "Of course, \u003cb\u003electures\u003c/b\u003e work best when they are in service of the appropriate learning objectives, such as: To transmit cutting-edge information which supplements&nbsp;...",
+      "cacheId": "t60NUAHOKg4J",
+      "formattedUrl": "https://www.cmu.edu/teaching/designteach/design/.../lectures.html",
+      "htmlFormattedUrl": "https://www.cmu.edu/teaching/designteach/design/.../\u003cb\u003electures\u003c/b\u003e.html",
+      "pagemap": {
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#9f0000",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "author": "Carnegie Mellon University",
+            "og:title": "Lectures - Eberly Center - Carnegie Mellon University",
+            "og:url": "https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/lectures.html",
+            "msapplication-tileimage": "//www.cmu.edu/favicon-144.png",
+            "og:description": "Lectures"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Feynman Lectures on Physics",
+      "htmlTitle": "The Feynman \u003cb\u003eLectures\u003c/b\u003e on Physics",
+      "link": "https://www.feynmanlectures.caltech.edu/",
+      "displayLink": "www.feynmanlectures.caltech.edu",
+      "snippet": "Caltech's Division of Physics, Mathematics and Astronomy and The Feynman Lectures Website are pleased to present this online edition of.",
+      "htmlSnippet": "Caltech&#39;s Division of Physics, Mathematics and Astronomy and The Feynman \u003cb\u003eLectures\u003c/b\u003e Website are pleased to present this online edition of.",
+      "cacheId": "CyXMWYWs9UEJ",
+      "formattedUrl": "https://www.feynmanlectures.caltech.edu/",
+      "htmlFormattedUrl": "https://www.feynman\u003cb\u003electures\u003c/b\u003e.caltech.edu/",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Seattle Arts & Lectures",
+      "htmlTitle": "Seattle Arts &amp; \u003cb\u003eLectures\u003c/b\u003e",
+      "link": "https://lectures.org/",
+      "displayLink": "lectures.org",
+      "snippet": "Seattle Arts & Lectures cultivates transformative experiences through story and language with readers and writers of all generations.",
+      "htmlSnippet": "Seattle Arts &amp; \u003cb\u003eLectures\u003c/b\u003e cultivates transformative experiences through story and language with readers and writers of all generations.",
+      "cacheId": "ZCiY7V0WW3MJ",
+      "formattedUrl": "https://lectures.org/",
+      "htmlFormattedUrl": "https://\u003cb\u003electures\u003c/b\u003e.org/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6G1M3VDnysajARGdHl2dgo9Ipqk3ITT0184TFRQCplFL5YFlzrosIojA",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://lectures.org/wp-content/themes/SAL_Civilization_2020/i/fb-share.jpg",
+            "og:type": "website",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "og:site_name": "Seattle Arts & Lectures",
+            "site-url": "https://lectures.org",
+            "viewport": "width=device-width, initial-scale=1, user-scalable=yes",
+            "apple-mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-title": "SAL",
+            "og:title": "Seattle Arts & Lectures",
+            "mobile-web-app-capable": "yes",
+            "og:locale": "en_US",
+            "og:url": "https://lectures.org/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lectures.org/wp-content/themes/SAL_Civilization_2020/i/fb-share.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Mandel Lectures in the Humanities | Mandel Center for ... - Waltham",
+      "htmlTitle": "Mandel \u003cb\u003eLectures\u003c/b\u003e in the Humanities | Mandel Center for ... - Waltham",
+      "link": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+      "displayLink": "www.brandeis.edu",
+      "snippet": "Annual Lecture Series. ... The goal of the Mandel Lectures in the Humanities is to promote the study of the humanities at Brandeis University.",
+      "htmlSnippet": "Annual \u003cb\u003eLecture\u003c/b\u003e Series. ... The goal of the Mandel \u003cb\u003eLectures\u003c/b\u003e in the Humanities is to promote the study of the humanities at Brandeis University.",
+      "cacheId": "cQLOZr0kgEEJ",
+      "formattedUrl": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+      "htmlFormattedUrl": "https://www.brandeis.edu/mandel-center-humanities/mandel-\u003cb\u003electures\u003c/b\u003e.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFEW26Zp0nE60lNlUW9W7YQRyYZwktRUoDsMNTHmqubkAjyfMgJWdsBy2n",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width,initial-scale=1,minimum-scale=1",
+            "og:title": "Mandel Lectures in the Humanities",
+            "og:url": "https://www.brandeis.edu/mandel-center-humanities/mandel-lectures.html",
+            "og:description": "Annual Lecture Series"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.brandeis.edu/mandel-center-humanities/upcoming-events-gallery/toibin-poster-2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Open Lectures | Bird Academy • The Cornell Lab",
+      "htmlTitle": "Open \u003cb\u003eLectures\u003c/b\u003e | Bird Academy • The Cornell Lab",
+      "link": "https://academy.allaboutbirds.org/live-events/",
+      "displayLink": "academy.allaboutbirds.org",
+      "snippet": "Open Lectures. Watch recordings of all the 2021 Migration Celebration presentations you missed as well as live event recordings from past webinars and the ...",
+      "htmlSnippet": "Open \u003cb\u003eLectures\u003c/b\u003e. Watch recordings of all the 2021 Migration Celebration presentations you missed as well as live event recordings from past webinars and the&nbsp;...",
+      "cacheId": "FTEHbYVF4mAJ",
+      "formattedUrl": "https://academy.allaboutbirds.org/live-events/",
+      "htmlFormattedUrl": "https://academy.allaboutbirds.org/live-events/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3fhaSjbPS1QnNKngtDMJepPEGPdh073CFiubY0htoQPtJg7INB9HJq77z",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "educationevent": [
+          {
+            "name": "Meet the Elephant Listening Project: saving African forest elephants using sound",
+            "description": "Join our experts for this free webinar and learn how studying the rumbles and calls of this elusive giant is helping to keep them safe in the rainforests of Central Africa.",
+            "startdate": "2021-11-17T13:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/meet-the-elephant-listening-project-saving-african-forest-elephants-using-sound/"
+          },
+          {
+            "name": "How to Use eBird Trip Reports to Plan and Share Your Adventures",
+            "description": "eBird Trip Reports are fun, easy-to-share summaries of where you went and the birds you found. Join Team eBird for a demonstration of this exciting new tool, plus additional trip-planning resources.",
+            "startdate": "2021-12-14T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/how-to-use-ebird-trip-reports-to-plan-and-share-your-adventures/"
+          }
+        ],
+        "broadcastevent": [
+          {
+            "duration": "T1H01M32S",
+            "name": "How the BirdCast Team Created Super-Accurate Bird \"Forecasts\"",
+            "startdate": "2021-09-24T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/how-the-birdcast-team-created-super-accurate-bird-forecasts/"
+          },
+          {
+            "duration": "T1H00M31S",
+            "name": "Migratory Journeys Mapped: The Magic of eBird",
+            "startdate": "2021-09-22T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/migratory-journeys-mapped-the-magic-of-ebird/"
+          },
+          {
+            "duration": "T46M48S",
+            "name": "Birds of the World: Amazing Migrations",
+            "startdate": "2021-09-20T13:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birds-of-the-world-amazing-migrations/"
+          },
+          {
+            "duration": "T1H00M19S",
+            "name": "Riveted by Raptors: A Look at Migration",
+            "startdate": "2021-09-17T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/riveted-by-raptor-a-look-at-migration/"
+          },
+          {
+            "duration": "T1H07M12S",
+            "name": "In the Studio with Science Illustrator Jane Kim",
+            "startdate": "2021-09-15T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/in-the-studio-with-science-illustrator-jane-kim/"
+          },
+          {
+            "duration": "T1H01M21S",
+            "name": "Fall Migration: Tips to Help Birds on Their Way",
+            "startdate": "2021-09-14T13:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/fall-migration-tips-to-help-birds-on-their-way/"
+          },
+          {
+            "duration": "T55M46S",
+            "name": "How to Save Songbirds with Your Morning Coffee",
+            "startdate": "2021-08-16T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/how-to-save-songbirds-with-your-morning-coffee/"
+          },
+          {
+            "duration": "T1H00M31S",
+            "name": "How High-Energy Hummingbirds Survive—a Q&A with the Experts",
+            "startdate": "2021-08-03T14:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/how-high-energy-hummingbirds-survive-a-qa-with-the-experts/"
+          },
+          {
+            "duration": "T59M57S",
+            "name": "Who's Singing? How to Use Merlin Bird ID to Identify Bird Calls",
+            "startdate": "2021-07-27T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/whos-singing-how-to-use-merlin-bird-id-to-identify-bird-calls/"
+          },
+          {
+            "duration": "T1H01M25S",
+            "name": "In the Studio with Scientific Illustrator Liz Clayton Fuller",
+            "startdate": "2021-07-09T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/in-the-studio-with-scientific-illustrator-liz-clayton-fuller/"
+          },
+          {
+            "duration": "T1H00M36S",
+            "name": "Gardening for Birds",
+            "startdate": "2021-06-08T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/gardening-for-birds/"
+          },
+          {
+            "duration": "T58M03S",
+            "name": "#BirdsEyeView: Falconry with Rodney Stotts",
+            "startdate": "2021-06-01T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birdseyeview-falconry-with-rodney-stotts/"
+          },
+          {
+            "duration": "T1H01M49S",
+            "name": "#BirdsOnMyBlock: Exploring Bird Apps with Black Birders Week",
+            "startdate": "2021-05-31T15:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birdsonmyblock-exploring-bird-apps-with-black-birders-week/"
+          },
+          {
+            "duration": "T1H02M32S",
+            "name": "Spring Migration: Get Ready for Great Birdwatching",
+            "startdate": "2021-04-22T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/spring-migration-get-ready-for-great-birdwatching/"
+          },
+          {
+            "duration": "T1H00M58S",
+            "name": "Backyard Bird Nest and Egg ID with NestWatch",
+            "startdate": "2021-03-02T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/backyard-bird-nest-and-egg-id-with-nestwatch/"
+          },
+          {
+            "duration": "T1H02M38S",
+            "name": "Explore Nature Through Sound and Music: Tropical Islands and Ocean",
+            "startdate": "2021-02-16T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/explore-nature-through-sound-and-music-tropical-islands-and-ocean/"
+          },
+          {
+            "duration": "T1H01M15S",
+            "name": "Watch Birds and Share the Joy: How to Participate in the Great Backyard Bird Count",
+            "startdate": "2021-02-09T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/how-to-participate-in-the-great-backyard-bird-count/"
+          },
+          {
+            "duration": "T1H02M16S",
+            "name": "Study Battling Birds in Panama with Bird Cams Lab",
+            "startdate": "2021-01-28T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/study-battling-birds-in-panama-with-bird-cams-lab/"
+          },
+          {
+            "duration": "T1H04M29S",
+            "name": "A Bird’s-Eye view of the Wall of Birds",
+            "startdate": "2020-12-08T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/a-birds-eye-view-of-the-wall-of-birds/"
+          },
+          {
+            "duration": "T1H01M42S",
+            "name": "Winter Bird Feeding 101 with Project FeederWatch",
+            "startdate": "2020-11-19T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/winter-bird-feeding-101-with-project-feederwatch/"
+          },
+          {
+            "duration": "T57M27S",
+            "name": "Macaulay Library Live Q&A",
+            "startdate": "2020-11-18T09:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/macaulay-library-live-qa/"
+          },
+          {
+            "duration": "T1H03M35S",
+            "name": "eBird Live Q&A",
+            "startdate": "2020-11-17T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/ebird-live-qa/"
+          },
+          {
+            "duration": "T1H05M38S",
+            "name": "Exploring Nature Through Sound and Music",
+            "startdate": "2020-11-12T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/exploring-nature-through-sound-and-music/"
+          },
+          {
+            "duration": "T33M00S",
+            "name": "Get Out and Count for eBird’s October Big Day",
+            "startdate": "2020-10-16T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/get-out-and-count-for-ebirds-october-big-day/"
+          },
+          {
+            "duration": "T1H01M15S",
+            "name": "Media that Matters: Natural History Filmmaking that Makes a Difference",
+            "startdate": "2020-09-25T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/media-that-matters-natural-history-filmmaking-that-makes-a-difference/"
+          },
+          {
+            "duration": "T1H03M00S",
+            "name": "Coastal Solutions: Building a Bold New Community to Address the Shorebird Crisis",
+            "startdate": "2020-09-24T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/coastal-solutions-building-a-bold-new-community-to-address-the-shorebird-crisis/"
+          },
+          {
+            "duration": "T35M20S",
+            "name": "Mapping Migration with eBird",
+            "startdate": "2020-09-22T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/mapping-migration-with-ebird/"
+          },
+          {
+            "duration": "T30M00S",
+            "name": "Lights Out to Protect Migratory Birds",
+            "startdate": "2020-09-17T13:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/lights-out-to-protect-migratory-birds/"
+          },
+          {
+            "duration": "T1H00M34S",
+            "name": "BirdCast: Learn When and Where Birds Migrate",
+            "startdate": "2020-09-01T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birdcast-learn-when-and-where-birds-migrate/"
+          },
+          {
+            "duration": "T1H04M52S",
+            "name": "Merlin Bird ID: Tips, Tricks, and Updates",
+            "startdate": "2020-08-11T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/merlin-bird-id-tips-tricks-and-updates/"
+          },
+          {
+            "duration": "T1H03M16S",
+            "name": "Uncover Historical Data with Nest Quest Go!",
+            "startdate": "2020-07-30T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/uncover-historical-data-with-nest-quest-go/"
+          },
+          {
+            "duration": "T1H01M27S",
+            "name": "What's that bird song? ID birds by sound with BirdNet",
+            "startdate": "2020-07-09T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/whats-that-bird-song-id-birds-by-sound-with-birdnet/"
+          },
+          {
+            "duration": "T1H08M03S",
+            "name": "Nest Talk With Nestwatch",
+            "startdate": "2020-06-18T12:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/nest-talk-with-nestwatch/"
+          },
+          {
+            "name": "3 Billion Birds Gone: The Bird Crisis and What We Can Do About It",
+            "startdate": "2019-11-04T19:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/3-billion-birds-lost-the-bird-crisis-and-what-we-can-do-about-it/"
+          },
+          {
+            "duration": "T1H00M32S",
+            "name": "Can Drones Help Our Bird Populations?",
+            "startdate": "2019-10-28T19:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/can-drones-help-our-bird-populations/"
+          },
+          {
+            "name": "Journey of the Juncos: Migration and Adaptation in Our Changing World ",
+            "startdate": "2019-10-07T17:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/journey-of-the-juncos-migration-and-adaptation-in-our-changing-world%E2%80%AF/"
+          },
+          {
+            "name": "Ospreys Across the Pond: A European Osprey Tour",
+            "startdate": "2019-05-20T19:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/ospreys-across-the-pond-a-european-osprey-tour/"
+          },
+          {
+            "name": "The Wall of Birds",
+            "startdate": "2019-05-02T19:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/the-wall-of-birds/"
+          },
+          {
+            "duration": "T58M46S",
+            "name": "A Galaxy of Falcons",
+            "startdate": "2018-11-05T19:30:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/a-galaxy-of-falcons/"
+          },
+          {
+            "duration": "T1H17M39S",
+            "name": "Dark Ecology: Studying Night-time Bird Migration with Radar",
+            "startdate": "2018-06-04T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/dark-ecology-studying-night-time-bird-migration-with-radar/"
+          },
+          {
+            "duration": "T54M05S",
+            "name": "Where Song Began: The Birds Of Australia",
+            "startdate": "2018-05-07T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/where-song-began-the-birds-of-australia/"
+          },
+          {
+            "duration": "T1H07M31S",
+            "name": "Bird Sounds Decoded",
+            "startdate": "2018-04-02T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/bird-sounds-decoded/"
+          },
+          {
+            "duration": "T1H10M37S",
+            "name": "Evolution Of Darwin’s Finches: Integrating Behavior, Ecology, And Genetics",
+            "startdate": "2018-03-12T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/evolution-of-darwins-finches-integrating-behavior-ecology-and-genetics/"
+          },
+          {
+            "duration": "T1H11M02S",
+            "name": "A Night At The Museum (Of Vertebrates)",
+            "startdate": "2018-02-15T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/a-night-at-the-museum-of-vertebrates/"
+          },
+          {
+            "duration": "T1H14M12S",
+            "name": "Primates And Snakes: 75 Million Years of Deadly Dialogue?",
+            "startdate": "2017-12-04T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/primates-and-snakes-75-million-years-of-deadly-dialogue/"
+          },
+          {
+            "duration": "T47M47S",
+            "name": "The Project FeederWatch Team Answers Your Questions About Bird Feeding",
+            "startdate": "2017-11-08T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/the-project-feederwatch-team-answers-your-questions-about-bird-feeding/"
+          },
+          {
+            "duration": "T1H24M21S",
+            "name": "Arthur Singer: 50 Years of Wildlife Art",
+            "startdate": "2017-11-06T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/arthur-singer-50-years-of-wildlife-art/"
+          },
+          {
+            "duration": "T1H10M41S",
+            "name": "Birding Without Borders: An Epic World Big Year",
+            "startdate": "2017-10-02T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birding-without-borders-an-epic-world-big-year/"
+          },
+          {
+            "duration": "T1H43M08S",
+            "name": "Bird Cams Appreciation Night Presentation and Q&A Session",
+            "startdate": "2017-09-16T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/bird-cams-appreciation-night-presentation-and-qa-session/"
+          },
+          {
+            "name": "Questions About Nesting Birds? Live From A Robin’s Nest, We’ve Got Answers",
+            "startdate": "2017-05-16T00:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/questions-about-nesting-birds-live-from-a-robins-nest-weve-got-answers/"
+          },
+          {
+            "duration": "T1H20M28S",
+            "name": "A World of Sound: A Blind Birdwatcher Shares His Story",
+            "startdate": "2017-04-03T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/a-world-of-sound-a-blind-birdwatcher-shares-his-story/"
+          },
+          {
+            "duration": "T1H11M16S",
+            "name": "Of Islands And Undergrads: Bird Study In The Isles Of Shoals",
+            "startdate": "2017-02-06T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/of-islands-and-undergrads-bird-study-in-the-isles-of-shoals/"
+          },
+          {
+            "duration": "T1H20M10S",
+            "name": "Cat Wars: The Devastating Consequences Of A Cuddly Killer",
+            "startdate": "2016-12-05T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/cat-wars-the-devastating-consequences-of-a-cuddly-killer/"
+          },
+          {
+            "duration": "T1H03M13S",
+            "name": "Coffee, Communities, And Conservation: How Your Cup Can Make A Difference",
+            "startdate": "2016-10-03T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/coffee-communities-and-conservation-how-your-cup-can-make-a-difference/"
+          },
+          {
+            "duration": "T1H10M27S",
+            "name": "Alone In This Remote Place: The Pioneering Women Biologists of New York’s Raptor Recovery Programs",
+            "startdate": "2016-04-25T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/alone-in-this-remote-place-the-pioneering-women-biologists-of-new-yorks-raptor-recovery-programs/"
+          },
+          {
+            "duration": "T1H24M48S",
+            "name": "Spotlight On Young Bird Researchers",
+            "startdate": "2016-03-21T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/spotlight-on-young-bird-researchers/"
+          },
+          {
+            "duration": "T1H02M37S",
+            "name": "The Marriage Of Art And Science: A One-Of-A-Kind Mural Of Birds",
+            "startdate": "2015-12-07T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/the-marriage-of-art-and-science-a-one-of-a-kind-mural-of-birds/"
+          },
+          {
+            "duration": "T1H07M02S",
+            "name": "BirdReturns: How Big Data and Farmers are Protecting the Pacific Flyway",
+            "startdate": "2015-10-19T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/birdreturns-how-big-data-and-farmers-are-protecting-the-pacific-flyway-in-california/"
+          },
+          {
+            "duration": "T1H19M32S",
+            "name": "To Interpret and Conserve: The Cornell Lab at 100 Years",
+            "startdate": "2015-09-14T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/to-interpret-and-conserve-the-cornell-lab-at-100-years/"
+          },
+          {
+            "duration": "T1H00M32S",
+            "name": "Talk to the Artist: An Epic Mural Celebrates The Evolution and Diversity of Birds",
+            "startdate": "2015-08-12T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/talk-to-the-artist-an-epic-mural-celebrates-the-evolution-and-diversity-of-birds/"
+          },
+          {
+            "duration": "T1H12M53S",
+            "name": "Into the Nest: Intimate Views of the Courting, Parenting, and Family Lives of Familiar Birds",
+            "startdate": "2015-05-04T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/into-the-nest-intimate-views-of-the-courting-parenting-and-family-lives-of-familiar-birds/"
+          },
+          {
+            "duration": "T1H16M56S",
+            "name": "Project Puffin: The Improbable Quest to Bring a Beloved Seabird Back to Egg Rock",
+            "startdate": "2015-04-06T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/project-puffin-the-improbable-quest-to-bring-a-beloved-seabird-back-to-egg-rock/"
+          },
+          {
+            "duration": "T1H09M47S",
+            "name": "Uphill Struggles: Cassowaries, Seeds, and Conservation in New Guinea",
+            "startdate": "2015-03-23T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/uphill-struggles-cassowaries-seeds-and-conservation-in-new-guinea/"
+          },
+          {
+            "duration": "T59M24S",
+            "name": "Life in an Adelie Penguin Colony—Live From Antarctica",
+            "startdate": "2015-01-19T19:00:00-5:00",
+            "url": "https://academy.allaboutbirds.org/live-event/life-in-an-adelie-penguin-colony-live-from-antarctica/"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#008941",
+            "theme-color": "#008941",
+            "og:type": "article",
+            "article:published_time": "2018-11-06T13:01:10",
+            "twitter:card": "summary",
+            "twitter:title": "Open Lectures | Bird Academy • The Cornell Lab",
+            "og:title": "Open Lectures | Bird Academy • The Cornell Lab",
+            "msapplication-tileimage": "https://academy.allaboutbirds.org/wp-content/themes/bav3/assets/img/favicons/ms-icon-144x144.png",
+            "og:description": "Watch recordings of all the 2021 Migration Celebration presentations you missed as well as live event recordings from past webinars and the Monday Night Seminar series.",
+            "article:author": "jeff szuc",
+            "twitter:site": "CornellBirds",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Watch recordings of all the 2021 Migration Celebration presentations you missed as well as live event recordings from past webinars and the Monday Night Seminar series.",
+            "og:url": "https://academy.allaboutbirds.org/live-events/"
+          }
+        ],
+        "webpage": [
+          {
+            "headline": "Bird Academy"
+          },
+          {
+            "headline": "Open Lectures"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://academy.allaboutbirds.org/wp-content/uploads/2021/10/Africanforestelephant_AnaVerahrami-1-600x400.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Courtroom Lectures - Washington, DC",
+      "htmlTitle": "Courtroom \u003cb\u003eLectures\u003c/b\u003e - Washington, DC",
+      "link": "https://www.supremecourt.gov/visiting/courtroomlectures.aspx",
+      "displayLink": "www.supremecourt.gov",
+      "snippet": "Courtroom Lectures are designed to introduce visitors of all ages to the judicial functions of the Supreme Court, the history of the building, ...",
+      "htmlSnippet": "Courtroom \u003cb\u003eLectures\u003c/b\u003e are designed to introduce visitors of all ages to the judicial functions of the Supreme Court, the history of the building,&nbsp;...",
+      "cacheId": "0P179PWkF6YJ",
+      "formattedUrl": "https://www.supremecourt.gov/visiting/courtroomlectures.aspx",
+      "htmlFormattedUrl": "https://www.supremecourt.gov/visiting/courtroom\u003cb\u003electures\u003c/b\u003e.aspx",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-bY2igwKLi1yB_uCaOArQQHe2bDxWaZhsGBrRihh4En6Uopg8sgD7Cswp",
+            "width": "299",
+            "height": "169"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1",
+            "created": "7/13/2017 10:37:08 AM",
+            "title": "Courtroom Lectures",
+            "revised": "5/11/2020 9:52:35 AM"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.supremecourt.gov/visiting/images/Image_014.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Lectures | Red Bull Music Academy",
+      "htmlTitle": "\u003cb\u003eLectures\u003c/b\u003e | Red Bull Music Academy",
+      "link": "https://www.redbullmusicacademy.com/lectures/",
+      "displayLink": "www.redbullmusicacademy.com",
+      "snippet": "Explore the Red Bull Music Academy archive, tracing the global music institution's more than 20-year history.",
+      "htmlSnippet": "Explore the Red Bull Music Academy archive, tracing the global music institution&#39;s more than 20-year history.",
+      "cacheId": "d9-b0DNdk6UJ",
+      "formattedUrl": "https://www.redbullmusicacademy.com/lectures/",
+      "htmlFormattedUrl": "https://www.redbullmusicacademy.com/\u003cb\u003electures\u003c/b\u003e/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuqdYGF4XzVIGYp_E0hHKz_SI0mIsFc2JxMFyc7piuWc9pl_Wls0TIK7c",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#000000",
+            "image": "https://media.redbullmusicacademy.com/assets/rbma.jpg?w=1080",
+            "og:image": "https://media.redbullmusicacademy.com/assets/rbma.jpg?w=1080",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Lectures",
+            "theme-color": "#ffffff",
+            "og:title": "Lectures",
+            "og:description": "Explore the Red Bull Music Academy archive, tracing the global music institution’s more than 20-year history",
+            "twitter:creator": "@rbma",
+            "twitter:image": "https://media.redbullmusicacademy.com/assets/rbma.jpg?w=1080",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "Explore the Red Bull Music Academy archive, tracing the global music institution’s more than 20-year history",
+            "og:url": "https://www.redbullmusicacademy.com/lectures"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.redbullmusicacademy.com/assets/rbma.jpg?w=1080"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Lectures - SCI-Arc - Los Angeles",
+      "htmlTitle": "\u003cb\u003eLectures\u003c/b\u003e - SCI-Arc - Los Angeles",
+      "link": "https://www.sciarc.edu/events/lectures",
+      "displayLink": "www.sciarc.edu",
+      "snippet": "All events begin at 7pm unless otherwise noted. Lectures take place in the W. M. Keck Lecture Hall and are also broadcast live. Parking and admission are free.",
+      "htmlSnippet": "All events begin at 7pm unless otherwise noted. \u003cb\u003eLectures\u003c/b\u003e take place in the W. M. Keck \u003cb\u003eLecture\u003c/b\u003e Hall and are also broadcast live. Parking and admission are free.",
+      "cacheId": "rBqd8GH0LYAJ",
+      "formattedUrl": "https://www.sciarc.edu/events/lectures",
+      "htmlFormattedUrl": "https://www.sciarc.edu/events/\u003cb\u003electures\u003c/b\u003e",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMR7YB62citVT3iyAxA_omISt7vlvtCtJW9reT_Qx7QrYEAqcagjdGfOY",
+            "width": "265",
+            "height": "190"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Lectures - SCI-Arc",
+            "og:url": "https://www.sciarc.edu/events/lectures",
+            "og:description": "Each semester, SCI-Arc welcomes speakers from all over the world, working in a wide range of disciplines, to engage directly with our students and the community.",
+            "turbolinks-cache-control": "no-cache",
+            "tags": ",sci-arc,sciarc,Southern California Institute of Architecture,architecture school,top architecture school,best architecture school,world-renowned,undergraduate architecture program,graduate architecture program,postgraduate architecture program,study architecture,architecture program,architecture career,higher education,higher learning,career preparation,architecture portfolio,portfolio prep,architecture studies,master in architecture,bachelor in architecture,architecture ,architecture education,"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://storage.googleapis.com/sci-arc/images/_thumbnail/ATH_headshot_2021_02_v03.jpg?mtime=20210816143258"
+          }
+        ]
+      }
+    }
+  ]
+}
