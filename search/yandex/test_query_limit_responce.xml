@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yandexsearch version="1.0">
+    <response date="20211113T150305">
+        <error code="33">
+            Запрос пришёл с IP-адреса 3.91.157.194, не входящего в список разрешённых для данного пользователя
+        </error>
+        <reqid>
+            1636815785654147-917827554347373043-man1-3979-man-l7-balancer-8080-BAL-4911
+        </reqid>
+    </response>
+</yandexsearch>
