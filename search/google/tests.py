@@ -1,4 +1,5 @@
 from search.google.google_response_formatter import GoogleResponseFormatter
+from search.google.google_exceptions import GoogleException
 from unittest import TestCase
 import os
 
@@ -9,8 +10,8 @@ class GoogleTestCase(TestCase):
 
     def test_json_parsing(self):
         file_path = os.path.join('search', 'google', 'test_response.json')
-        with open(file_path) as xml_file:
-            xml_string = xml_file.read()
+        with open(file_path) as json_file:
+            json_string = json_file.read()
         expected = [{'num': 1, 'url': 'https://en.wikipedia.org/wiki/Lecture'},
                     {'num': 2, 'url':
                         'https://www.youtube.com/channel/UCFJyaHVyWKb2y-HkIAEPIdA'},
@@ -30,4 +31,9 @@ class GoogleTestCase(TestCase):
                     {'num': 10, 'url':
                         'https://www.sciarc.edu/events/lectures'}]
         self.assertEqual(expected,
-            GoogleResponseFormatter(xml_string).get_formatted_response())
+            GoogleResponseFormatter(json_string).get_formatted_response())
+
+    def test_invalid_json(self):
+        with self.assertRaisesRegex(GoogleException, r'Invalid response'):
+            GoogleResponseFormatter('lorem ipsum').get_formatted_response()
+            GoogleResponseFormatter('{}').get_formatted_response()

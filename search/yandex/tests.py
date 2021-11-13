@@ -32,4 +32,11 @@ class YandexTestCase(TestCase):
         with self.assertRaises(YandexException):
             YandexResponceFormatter(xml_string).get_formatted_response()
 
+    def test_invalid_xml(self):
+        with self.assertRaisesRegex(YandexException, r'Invalid response'):
+            YandexResponceFormatter('lorem ipsum').get_formatted_response()
+            YandexResponceFormatter('<root></root>').get_formatted_response()
+
+
+
 
