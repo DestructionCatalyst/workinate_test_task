@@ -18,7 +18,7 @@ def parse_group(group: ET.Element):
     return url.text.strip()
 
 
-class YandexResponceFormatter(BaseResponseFormatter):
+class YandexResponseFormatter(BaseResponseFormatter):
     def parse_input(self):
         try:
             tree = ET.fromstring(self.input_data)

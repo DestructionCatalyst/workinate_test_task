@@ -1,4 +1,4 @@
-from search.yandex.yandex_response_formatter import YandexResponceFormatter
+from search.yandex.yandex_response_formatter import YandexResponseFormatter
 from search.yandex.yandex_exceptions import YandexException
 from unittest import TestCase
 import os
@@ -23,19 +23,19 @@ class YandexTestCase(TestCase):
                     {'num': 9, 'url': 'https://yandex.ru/video/?p=1'},
                     {'num': 10, 'url': 'https://yandex.ru/all'}]
         self.assertEqual(expected,
-            YandexResponceFormatter(xml_string).get_formatted_response())
+            YandexResponseFormatter(xml_string).get_formatted_response())
 
     def test_xml_error(self):
         file_path = os.path.join('search', 'yandex', 'test_error_response.xml')
         with open(file_path) as xml_file:
             xml_string = xml_file.read()
         with self.assertRaises(YandexException):
-            YandexResponceFormatter(xml_string).get_formatted_response()
+            YandexResponseFormatter(xml_string).get_formatted_response()
 
     def test_invalid_xml(self):
         with self.assertRaisesRegex(YandexException, r'Invalid response'):
-            YandexResponceFormatter('lorem ipsum').get_formatted_response()
-            YandexResponceFormatter('<root></root>').get_formatted_response()
+            YandexResponseFormatter('lorem ipsum').get_formatted_response()
+            YandexResponseFormatter('<root></root>').get_formatted_response()
 
 
 

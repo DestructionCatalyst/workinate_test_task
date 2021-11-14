@@ -1,8 +1,15 @@
-from django.http.response import JsonResponse, Http404
+from django.http.response import JsonResponse, Http404, HttpResponseServerError
 from django.views.decorators.http import require_GET
-from search.google.google_request import google_search_api_request
-from search.google.google_response_formatter import GoogleResponseFormatter
 from django.http import HttpRequest
+from search.api_request import ApiRequest
+from search.google.google_request import google_api_request
+from search.yandex.yandex_request import yandex_api_request
+from search.base_response_formatter import BaseResponseFormatter
+from search.google.google_response_formatter import GoogleResponseFormatter
+from search.yandex.yandex_response_formatter import YandexResponseFormatter
+from search.yandex.yandex_exceptions import YandexException
+from search.google.google_exceptions import GoogleException
+
 
 
 def read_get_param(request: HttpRequest, param: str):
@@ -21,15 +28,30 @@ def read_get_param(request: HttpRequest, param: str):
 
     return query
 
+def get_formatted_api_response(query: str,
+                     api_request: ApiRequest,
+                     formatter: BaseResponseFormatter):
+    api_response = api_request.request(query)
+    formatted_response = formatter(api_response).get_formatted_response()
+    return JsonResponse({"data": formatted_response})
+
+
 @require_GET
 def search_yandex(request):
     query = read_get_param(request, 'query')
-    return JsonResponse({"data": [query]})
+    try:
+        return get_formatted_api_response(query,
+                                          yandex_api_request,
+                                          YandexResponseFormatter)
+    except YandexException as e:
+        return HttpResponseServerError(str(e))
 
 @require_GET
 def search_google(request):
     query = read_get_param(request, 'query')
-    google_response = google_search_api_request(query)
-    formatted_response = \
-        GoogleResponseFormatter(google_response).get_formatted_response()
-    return JsonResponse({"data": formatted_response})
+    try:
+        return get_formatted_api_response(query,
+                                      google_api_request,
+                                      GoogleResponseFormatter)
+    except GoogleException as e:
+        return HttpResponseServerError(str(e))
