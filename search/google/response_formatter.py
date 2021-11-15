@@ -1,5 +1,5 @@
 from search.base_response_formatter import BaseResponseFormatter
-from search.google.google_exceptions import GoogleException
+from search.google.exceptions import GoogleException
 import json
 
 

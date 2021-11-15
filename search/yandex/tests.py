@@ -1,5 +1,5 @@
-from search.yandex.yandex_response_formatter import YandexResponseFormatter
-from search.yandex.yandex_exceptions import YandexException
+from search.yandex.response_formatter import YandexResponseFormatter
+from search.yandex.exceptions import YandexException
 from unittest import TestCase
 import os
 
