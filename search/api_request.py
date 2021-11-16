@@ -1,5 +1,5 @@
 import requests
-from search.google.google_exceptions import GoogleException
+from search.exceptions import ApiException
 
 
 class ApiRequest:
@@ -27,4 +27,4 @@ class ApiRequest:
         if response.status_code == 200:
             return response.content
         else:
-            raise GoogleException('API returned error code ', response.status_code)
+            raise ApiException('API returned error code ' + response.status_code)

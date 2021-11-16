@@ -1,5 +1,5 @@
 from search.base_response_formatter import BaseResponseFormatter
-from search.google.exceptions import GoogleException
+from search.exceptions import ApiException
 import json
 
 
@@ -8,7 +8,7 @@ class GoogleResponseFormatter(BaseResponseFormatter):
         try:
             json_dict = json.loads(self.input_data)
         except json.JSONDecodeError:
-            raise GoogleException('Invalid response', '500')
+            raise ApiException('Invalid response from API')
         raw_items = json_dict.get('items')
         if raw_items is None:
             return []

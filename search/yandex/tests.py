@@ -1,5 +1,5 @@
 from search.yandex.response_formatter import YandexResponseFormatter
-from search.yandex.exceptions import YandexException
+from search.exceptions import ApiException
 from unittest import TestCase
 import os
 
@@ -29,11 +29,11 @@ class YandexTestCase(TestCase):
         file_path = os.path.join('search', 'yandex', 'test_error_response.xml')
         with open(file_path) as xml_file:
             xml_string = xml_file.read()
-        with self.assertRaises(YandexException):
+        with self.assertRaises(ApiException):
             YandexResponseFormatter(xml_string).get_formatted_response()
 
     def test_invalid_xml(self):
-        with self.assertRaisesRegex(YandexException, r'Invalid response'):
+        with self.assertRaisesRegex(ApiException, r'Invalid response from API'):
             YandexResponseFormatter('lorem ipsum').get_formatted_response()
             YandexResponseFormatter('<root></root>').get_formatted_response()
 

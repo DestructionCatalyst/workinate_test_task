@@ -1,5 +1,5 @@
 from search.serpapi_yandex.response_formatter import SerpapiResponseFormatter
-from search.serpapi_yandex.exceptions import SerpapiException
+from search.exceptions import ApiException
 from unittest import TestCase
 import os
 
@@ -30,7 +30,7 @@ class GoogleTestCase(TestCase):
             SerpapiResponseFormatter(json_string).get_formatted_response())
 
     def test_invalid_json(self):
-        with self.assertRaisesRegex(SerpapiException, r'Invalid response'):
+        with self.assertRaisesRegex(ApiException, r'Invalid response from API'):
             SerpapiResponseFormatter('lorem ipsum').get_formatted_response()
             SerpapiResponseFormatter('{}').get_formatted_response()
 

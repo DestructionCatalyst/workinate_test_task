@@ -1,5 +1,5 @@
 from search.google.response_formatter import GoogleResponseFormatter
-from search.google.exceptions import GoogleException
+from search.exceptions import ApiException
 from unittest import TestCase
 import os
 
@@ -34,7 +34,7 @@ class GoogleTestCase(TestCase):
             GoogleResponseFormatter(json_string).get_formatted_response())
 
     def test_invalid_json(self):
-        with self.assertRaisesRegex(GoogleException, r'Invalid response'):
+        with self.assertRaisesRegex(ApiException, r'Invalid response from API'):
             GoogleResponseFormatter('lorem ipsum').get_formatted_response()
 
     def test_empty_json(self):

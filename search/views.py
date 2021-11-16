@@ -1,6 +1,7 @@
 from django.http.response import JsonResponse, Http404, HttpResponseServerError
 from django.views.decorators.http import require_GET
 from django.http import HttpRequest
+from search.exceptions import ApiException
 from search.api_request import ApiRequest
 from search.google.request import google_api_request
 from search.yandex.request import yandex_api_request
@@ -37,9 +38,12 @@ def get_formatted_api_response(query: str,
     Makes a query to the API using ApiRequest object,
     formats the response using ResponseFormatter, and returns it as JsonResponse
     """
-    api_response = api_request.request(query)
-    formatted_response = formatter(api_response).get_formatted_response()
-    return JsonResponse({"data": formatted_response})
+    try:
+        api_response = api_request.request(query)
+        formatted_response = formatter(api_response).get_formatted_response()
+        return JsonResponse({"data": formatted_response})
+    except ApiException as e:
+        return HttpResponseServerError(str(e))
 
 
 @require_GET
