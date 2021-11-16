@@ -27,4 +27,4 @@ class ApiRequest:
         if response.status_code == 200:
             return response.content
         else:
-            raise ApiException('API returned error code ' + response.status_code)
+            raise ApiException('API returned error code ' + str(response.status_code))

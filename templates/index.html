@@ -5,5 +5,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="yandex-verification" content="48a8a270bce6a344" />
     </head>
-    <body></body>
+    <body>
+        {% for name, form in forms %}
+            <form action="/search/{{ name.lower }}" method="GET">
+                <p><label for={{ form.query.id_for_label }}>Search {{ name }}:</label>
+                {{ form.query }}
+                <input type="submit" value="Search"></p>
+            </form>
+        {% endfor %}
+    </body>
 </html>

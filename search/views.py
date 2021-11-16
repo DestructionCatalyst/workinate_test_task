@@ -1,4 +1,5 @@
-from django.http.response import JsonResponse, Http404, HttpResponseServerError
+from django.http.response import JsonResponse, HttpResponseServerError
+from django.core.exceptions import BadRequest
 from django.views.decorators.http import require_GET
 from django.http import HttpRequest
 from search.exceptions import ApiException
@@ -19,12 +20,12 @@ def read_get_param(request: HttpRequest, param: str):
     :param request: request to read parameter value from
     :param param: name of the parameter
     :return: value of the specified parameter
-    :raise django.http.Http404: if a request does not contain a parameter
+    :raise django.http.HttpResponseBadRequest: if a request does not contain a parameter
     with the specified name
     """
     query = request.GET.get(param)
-    if query is None:
-        raise Http404
+    if query is None or query == '':
+        raise BadRequest('Non-empty GET parameter "query" is required')
     return query
 
 def get_formatted_api_response(query: str,
