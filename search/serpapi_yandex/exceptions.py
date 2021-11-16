@@ -1,2 +1,0 @@
-class SerpapiException(Exception):
-    pass
