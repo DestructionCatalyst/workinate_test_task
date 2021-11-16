@@ -10,10 +10,6 @@ from search.base_response_formatter import BaseResponseFormatter
 from search.google.response_formatter import GoogleResponseFormatter
 from search.yandex.response_formatter import YandexResponseFormatter
 from search.serpapi_yandex.response_formatter import SerpapiResponseFormatter
-from search.google.exceptions import GoogleException
-from search.yandex.exceptions import YandexException
-from search.serpapi_yandex.exceptions import SerpapiException
-
 
 
 def read_get_param(request: HttpRequest, param: str):
@@ -49,29 +45,20 @@ def get_formatted_api_response(query: str,
 @require_GET
 def search_yandex(request):
     query = read_get_param(request, 'query')
-    try:
-        return get_formatted_api_response(query,
-                                          yandex_api_request,
-                                          YandexResponseFormatter)
-    except YandexException as e:
-        return HttpResponseServerError(str(e))
+    return get_formatted_api_response(query,
+                                      yandex_api_request,
+                                      YandexResponseFormatter)
 
 @require_GET
 def search_serpapi_yandex(request):
     query = read_get_param(request, 'query')
-    try:
-        return get_formatted_api_response(query,
-                                          yandex_serpapi_request,
-                                          SerpapiResponseFormatter)
-    except SerpapiException as e:
-        return HttpResponseServerError(str(e))
+    return get_formatted_api_response(query,
+                                      yandex_serpapi_request,
+                                      SerpapiResponseFormatter)
 
 @require_GET
 def search_google(request):
     query = read_get_param(request, 'query')
-    try:
-        return get_formatted_api_response(query,
+    return get_formatted_api_response(query,
                                       google_api_request,
                                       GoogleResponseFormatter)
-    except GoogleException as e:
-        return HttpResponseServerError(str(e))
